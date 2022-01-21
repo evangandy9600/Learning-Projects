@@ -1,6 +1,3 @@
-import math
-import json
-
 # Evan's GPA Calculator
 # Formula: (Grade point value * credits) / (total number of credits)
 # How to run: 
