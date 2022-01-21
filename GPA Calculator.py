@@ -51,7 +51,6 @@ def get_grade():
         point_values.append(grade_point) # adds values to array
         # Weight Calculations
         weighted = input("GPA Type: Unweighted (U) or Weighted (W) ")
-        weight = ""
         if weighted.upper() == "W":
             weight = input("Chose: AP, Hon, Reg ")
             weighted_gp = credits * (weight_dict.get(weight.upper()) + grade_point)
